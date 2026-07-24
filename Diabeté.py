@@ -48,6 +48,20 @@ print ( model.best_score_)
 y_predict=model.predict(x_test)
 # print (f"Actual value: {y_test}, predicted_value: {y_predict}")
 
+# result: 
+#best params:  RandomForestClassifier(max_depth=20, max_features='log2', n_estimators=500)
+# 0.8190064837994975
+#               precision    recall  f1-score   support
+
+#            0       0.86      0.77      0.81        99
+#            1       0.65      0.78      0.71        55
+
+#     accuracy                           0.77       154
+#    macro avg       0.76      0.77      0.76       154
+# weighted avg       0.79      0.77      0.78       154
+
+
+
 
 
 
