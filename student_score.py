@@ -52,5 +52,9 @@ print("R2 Score:", r2_score(y_test, y_predict))
 print("Mean Squared Error:", mean_squared_error(y_test, y_predict))
 
 
+# result
+# R2 Score: 0.9378432907399291
+# Mean Squared Error: 14.980822041816763
+
 
 
